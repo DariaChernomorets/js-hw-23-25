@@ -22,10 +22,13 @@ console.log(arr5);
 
 //5
 const arrString1 =  ['js', 'css', 'jq'];
-console.log(arrString1[0]);
+const first = arrString1.splice(0,1);
+console.log(first);
 
 //6
-console.log(arrString1[arrString1.length - 1]);
+const arrString0 =  ['js', 'css', 'jq'];
+const last = arrString0.splice(-1,1);
+console.log(last);
 
 //7
 const arr6 = [1, 2, 3, 4, 5];
